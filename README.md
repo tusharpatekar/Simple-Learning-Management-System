@@ -1,8 +1,8 @@
-# LMS
+# Simple Learning Management System 
 
 ## Description
 
-This is a simple Learning Management System (LMS) application that allows students to select courses and view their selected courses on the dashboard. Admins can manage courses and lectures through CRUD operations.
+This is a Simple Learning Management System (LMS) application that allows students to select courses and view their selected courses on the dashboard. Admins can manage courses and lectures through CRUD operations.
 
 ---
 
@@ -46,7 +46,7 @@ This is a simple Learning Management System (LMS) application that allows studen
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/lms.git
+    git clone https://github.com/tusharpatekar/Simple-Learning-Management-System.git
     cd backend
     ```
 
@@ -162,7 +162,7 @@ To populate the database with initial data (courses, users, lectures, etc.):
 To access the admin features of this project, use the following credentials:
 
 - **Email:** `admin@example.com`
-- **Password:** `Admin123`
+- **Password:** `admin123`
 
 > Passwords are securely hashed in the database using bcrypt. Use the `/user/login` endpoint to log in and receive a JWT token for authentication.
 
