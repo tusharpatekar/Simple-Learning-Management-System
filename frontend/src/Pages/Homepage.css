@@ -1,0 +1,43 @@
+/* Homepage.css */
+
+.homepage-container {
+  text-align: center;
+  margin-top: 50px; 
+}
+
+.homepage-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.homepage-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666; 
+}
+
+.homepage-container a {
+  color: #007bff; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+.homepage-container a:hover {
+  color: #0056b3; 
+}
+
+
+.homepage-container a.sign-link {
+  margin: 0 10px; 
+}
+
+
+.homepage-container a.sign-link.signin {
+  color: #28a745; 
+}
+
+.homepage-container a.sign-link.signup {
+  color: #dc3545; 
+}

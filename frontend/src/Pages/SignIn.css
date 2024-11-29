@@ -1,0 +1,57 @@
+/* SignIn.css */
+
+.sign-in-container , .sign-up-container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-container h2 , .sign-up-container h2 {
+  margin-bottom: 20px;
+}
+
+.sign-in-container input[type="email"],
+.sign-in-container input[type="password"],
+.sign-up-container input[type="email"],
+.sign-up-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in-container button ,
+.sign-up-container button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-in-container button:hover ,
+.sign-up-container button:hover {
+  background-color: #45a049;
+}
+
+.sign-in-container p,
+.sign-up-container p {
+  margin-top: 10px;
+}
+
+.sign-in-container p a,
+.sign-up-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign-in-container p a:hover,
+.sign-up-container p a:hover {
+  text-decoration: underline;
+}
